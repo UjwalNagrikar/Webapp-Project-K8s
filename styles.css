@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header, section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4ca1af;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #dff9fb;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 60px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #4ca1af;
+    text-transform: none; /* Ensures text appears as written */
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+#dynamic-role {
+    color: #f9ca24;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    color: #f9ca24;
+    border-bottom: 2px solid #4ca1af;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section ul li {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 15px;
+    border: 1px solid #f9ca24;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Contact Section */
+.contact a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #4ca1af;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact a:hover {
+    background: #f9ca24;
+    transform: scale(1.1);
+}
